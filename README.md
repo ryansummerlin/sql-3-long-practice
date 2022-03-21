@@ -13,7 +13,7 @@ Execute the file __build-cats.sql__ in the terminal to build the `cats`
 database, and populate it with seed data.
 
 ```shell
-sqlite3 cats.sqlite ".read build-cats.sql"
+sqlite3 cats.db ".read build-cats.sql"
 ```
 
 ## Refresh your memory
